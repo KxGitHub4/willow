@@ -5,7 +5,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: hanwckf\immortalwrt-mt798x
+          repository: hanwckf/immortalwrt-mt798x
       - run: pwd
       - name: show system infomation
         run: |-
