@@ -1,10 +1,16 @@
 on: push
 
 jobs: 
-  job1:
-    name: echo system-infomation
+
+  checkout_immortal_Repository:
     runs-on: ubuntu-latest
     steps:
-      - run: uname -a
+      - uses: actions/checkout@v4
+        with:
+          repository: 'immortalwrt-mt798x'
+      - run: pwd
+
+
+
 
 
