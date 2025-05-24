@@ -4,7 +4,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-          with:
-           repository: hanwckf\immortalwrt-mt798x
-
+        with:
+          repository: hanwckf\immortalwrt-mt798x
       - run: pwd
+      - name: show system infomation
+        run: |-
+          lscpu
+          free -m
