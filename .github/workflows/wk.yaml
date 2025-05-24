@@ -1,9 +1,10 @@
 on: push
 
 jobs: 
-  job1: echo
+  job1:
+    name: echo system-infomation
     runs-on: ubuntu-latest
     steps:
-      - run echo "hi"
+      - run uname -a
 
 
