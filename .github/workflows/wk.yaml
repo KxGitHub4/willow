@@ -1,16 +1,10 @@
 on: push
-
-jobs: 
-
+jobs:
   checkout_immortal_Repository:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          repository: 'immortalwrt-mt798x'
+          with:
+           repository: hanwckf\immortalwrt-mt798x
+
       - run: pwd
-
-
-
-
-
