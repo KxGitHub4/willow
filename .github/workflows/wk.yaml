@@ -5,6 +5,6 @@ jobs:
     name: echo system-infomation
     runs-on: ubuntu-latest
     steps:
-      - run uname -a
+      - run: uname -a
 
 
