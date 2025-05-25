@@ -11,3 +11,5 @@ jobs:
         run: |-
           lscpu
           free -m
+      - name: show all file
+        run: ls
